@@ -1,0 +1,65 @@
+.layout-item {
+    border-radius: 20px;
+    border: 1px solid #a1a1a1;
+    margin: 10px;
+    padding: 10px;
+}
+
+.w3-row-padding img {
+    margin-bottom: 12px
+}
+/* Set the width of the sidebar to 120px */
+
+.w3-sidebar {
+    width: 100px;
+    background: #222;
+}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+
+#main {
+    margin-left: 100px
+}
+/* Remove margins from "page content" on small screens */
+
+@media only screen and (max-width: 600px) {
+    #main {
+        margin-left: 0
+    }
+    
+}
+/* Responsive for mobile */
+@media only screen and (min-width: 360px ){
+    .w3-full {
+        width:170px;
+        height:70px;
+        margin-bottom:15px; 
+        border: none;
+    }
+    .layout-item{
+        
+        width: 50px;
+        height:70px;
+        border-radius: 30px;
+        border: none;
+    }
+    .w3-half{
+        display: flex;
+        
+    }
+}
+.layout-large{
+    width:672px;
+    height:100%; 
+    margin-bottom:15px; 
+    border: none;
+}
+.layout-item{
+    width:325px;
+    height:410px;
+    border-radius: 30px;
+    border: none;
+    padding-right: 0;
+}
+.contact{
+    
+}

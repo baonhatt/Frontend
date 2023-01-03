@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/profile.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <title>Edit-Profile</title>
+</head>
+<body>
+    <ul class="breadcrumb_">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="user-profile.html">User-Profile</a></li>
+        <li><a class="breadcrumb_active"href="edit-profile.html">Edit-Profile</a></li>
+    </ul>
+    <div class="container" method="POST">
+        <div class="col-4">
+            <div class="avatar-user">
+                <img width="150px" src="https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg" alt="Avatar user" >
+            </div>
+           
+            <div class="name-user">
+                <h5>Name</h5>
+                <span>user@gmail.com</span>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="col-md-6"><label for="">Thay đổi ảnh đại diện</label>
+                <input type="file" name="file"/></div>
+            <div class="col-md-6"><label id ="ho_va_ten" class="labels">Họ tên</label><input type="text" class="form-control" placeholder="Họ và Tên" value=""></div>
+            <div class="col-md-12"><label id ="so_dien_thoai" class="labels">Số điện thoại</label><input type="text" class="form-control" placeholder="Nhập số điện thoại" value=""></div>
+            <div class="col-md-12"><label id ="nam_sinh" class="labels">Năm sinh</label><input type="year" class="form-control" placeholder="Năm sinh" value=""></div>
+            <div class="col-md-12"><label fid="gioi_tinh">Giới tính</label>
+                <select name="Giới tính" class="form-control">
+                    <option value="male">Nam</option>
+                    <option value="female">Nữ</option>
+                    <option value="female">Khác</option>
+                </select>
+            </div>
+            <div class="col-md-12"><label id ="dia_chi" class="labels">Địa chỉ</label><input type="text" class="form-control" placeholder="Địa chỉ" value=""></div>
+            <div class="col-md-12"><label id ="email" class="labels">Email</label><input type="email" class="form-control" placeholder="Nhập email của bạn" value=""></div>
+            <div class="col-md-12"><label id ="password" class="labels">Mât khẩu mới</label><input type="password" class="form-control" placeholder="Nhập mật khẩu mới của bạn" value=""></div>
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="mt-5 text-center"><button class="btn btn-primary profile-button" type="button">Cập Nhật</button></div>
+        <div class="mt-5 px-2 text-center"><button class="btn btn-red profile-button" type="button">Hủy</button></div>
+
+        </div>
+    </div>
+    <div class="tablist">
+    </div>
+</body>
+</html>
